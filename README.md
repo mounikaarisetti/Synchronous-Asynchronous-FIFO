@@ -31,6 +31,10 @@ Read Operation:
 Controlled by the read clock (rd_clk). When rd_en is high and data is available, it is read from memory. iIf all data has been read, it indicates an Empty Condition, and reading beyond this causes an Underflow Condition.
 
 Asynchronous FIFOs operate with different clocks, synchronization flags or pointer synchronization techniques are used to ensure reliable data transfer between domains.
+
+**Simulation Results for Overflow**
+<img width="1564" height="679" alt="image" src="https://github.com/user-attachments/assets/092bdcd4-0c06-431d-b542-c883119c8bb1" />
+
                                   
 
 
